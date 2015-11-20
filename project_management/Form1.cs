@@ -19,7 +19,7 @@ namespace project_management
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("FAIL");
+            MessageBox.Show(textBox1.Text);
         }
     }
 }
